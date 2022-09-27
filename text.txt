@@ -1,0 +1,21 @@
+sten == sten oav.
+påse == påse oav.
+sax == sax osv.
+
+sten -> sax
+påse -> sten
+sax -> påse
+
+sten = 2
+påse = 1
+sax = 0
+
+sten > sax -> sten
+påse < sten -> påse
+
+pInput = 0;
+cInput = 1;
+
+pInput === cInput
+
+(pInput + 1) % 3 == cInput;

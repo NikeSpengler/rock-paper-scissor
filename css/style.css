@@ -15,20 +15,19 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    border-radius: 20px;
-
 }
 
-.seperator {
+.separator {
     font-size: 5rem;
 }
 
 .action {
     padding: 40px 0;
     margin: 0 auto;
-    background-color: pink;
+    background-color: skyblue;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-evenly;
     border-radius: 20px;
 }
@@ -36,9 +35,11 @@ body {
 .result {
     padding: 40px 0;
     margin: 0 auto;
-    background-color: pink;
+    margin-top: 10px;
+    background-color: skyblue;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-evenly;
     border-radius: 20px;
 }
